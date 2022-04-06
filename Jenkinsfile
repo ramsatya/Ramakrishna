@@ -2,7 +2,7 @@ node{
       
      
     stage('git-clone'){
-        git  credentialsId: 'github', url: 'https://github.com/ramsatya/Ramakrishna.git'
+        git  branch: 'development', credentialsId: 'github', url: 'https://github.com/ramsatya/Ramakrishna.git'
     }
     
     stage('maven-build')
