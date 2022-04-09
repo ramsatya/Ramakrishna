@@ -96,7 +96,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>devops desk Snapshot Nexus Repository </name>
-	      <url>http://3.86.185.198:8081/repository/devopsdesk/</url>
+	      <url>http://3.86.185.198:8081/repository/devops-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
